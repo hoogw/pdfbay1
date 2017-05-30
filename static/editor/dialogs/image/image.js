@@ -90,7 +90,7 @@
 					list = uploadImage.getInsertList();
 					var count = uploadImage.getQueueCount();
 					if (count) {
-						$('.info', '#queueList').html('<span style="color:red;">' + '还有2个未上传文件'.replace(/[\d]/, count) + '</span>');
+						$('.info', '#queueList').html('<span style="color:red;">' + 'there is 2 file not upload yet'.replace(/[\d]/, count) + '</span>');
 						return false;
 					}
 					break;
